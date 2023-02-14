@@ -42,8 +42,23 @@ body {
     z-index: 20;
 }
 
-.header > .logo {
-    margin-left: 10vw;
+.header > .logstate {
+    display: flex;
+    padding-left: 7vh;
+}
+
+.header > .logstate > img {
+    margin: 0;
+    height: 6.5vh;
+    width: 6.5vh;
+    border-radius: 50%;
+    border: 1px solid #6fc173;
+}
+
+.header > .logstate > a {
+    height: 100%;
+    line-height: 6.5vh;
+    padding-left: 5px;
 }
 
 .header > .navigation {
