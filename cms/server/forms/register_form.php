@@ -1,18 +1,18 @@
 <h1>Sign Up</h1>
 <form action="register.php" method="post">
-    <div class="name_req">
+    <div class="Name">
         <label>
             Account name : 
             <input type="text" name="name" required>
         </label>
     </div>
-    <div class="address_req">
+    <div class="MailAddress">
         <label>
             Mail Address : 
             <input type="text" name="mail" required>
         </label>
     </div>
-    <div class="pass_req">
+    <div class="Password">
         <label>
             Password : 
             <input type="password" name="pass" required>
